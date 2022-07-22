@@ -8,7 +8,8 @@ Created on Fri Jul 22 12:32:07 2022
 import numpy as np
 import pickle
 import streamlit as st 
-import streamlit_option_menu as som
+import streamlit_option_menu as om
+
 
 
 from sklearn.preprocessing import StandardScaler
@@ -20,7 +21,7 @@ model2 = pickle.load(open(path2,'rb'))
 #creating np array# side bar for navigation
 
 with st.sidebar:
-    select = som.option_menu('AI Disease Detecting System',['Diabetes Detection','HeartDiseases Detection'],icons=  ['capsule','heart-pulse-fill'],default_index=0)
+    select = om.option_menu('AI Disease Detecting System',['Diabetes Detection','HeartDiseases Detection'],icons=  ['capsule','heart-pulse-fill'],default_index=0)
 
 
 if(select =='Diabetes Detection'):
