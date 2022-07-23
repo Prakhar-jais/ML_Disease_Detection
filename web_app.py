@@ -13,8 +13,8 @@ import streamlit_option_menu as om
 
 
 from sklearn.preprocessing import StandardScaler
-path1 = r"C:\Users\pranil jaiswal\.spyder-py3\web_app_ML\trained_model.sav"
-path2 = r"C:\Users\pranil jaiswal\.spyder-py3\web_app_ML\Heart_disease_Model.sav"
+path1 = r"trained_model.sav"
+path2 = r"Heart_disease_Model.sav"
 model1 = pickle.load(open(path1,'rb'))
 model2 = pickle.load(open(path2,'rb'))
 
