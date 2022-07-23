@@ -1,8 +1,6 @@
 keras==2.9.0
 numexpr==2.7.1
 numpy==1.23.0
-numpydoc @ file:///tmp/build/80754af9/numpydoc_1605117425582/work
-pandas @ file:///C:/ci/pandas_1602083338010/work
 pickleshare==0.7.5
 scikit-learn==1.0.2
 streamlit==1.11.0
